@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: fantasy;
+            font-size: large;
+            
+        }
+
+        a{
+            color: chartreuse;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: crimson;
+        }
+
+        a:hover{
+            color: springgreen;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: bisque;
+        }
+
+        a::before{
+            content: ' [LINK] ';
+            font-size: smaller;
+            color: rgba(0, 0, 255, 0.301);
+        }
+
+
+        .especial::after{
+            content: '    Ó-Ó';
+            font-size: 14px;
+            color: rgb(192, 200, 207);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Links doidos</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=nBpe2YQEzZo&list=RDnBpe2YQEzZo&start_radio=1" target="_blank">NAO CLIQUE AQUI</a></li>
+        <li><a href="https://www.youtube.com/watch?v=SwwJ00PqqFI&list=RDSwwJ00PqqFI&start_radio=1 " target="_blank" class="especial">CLIQUE AQUI</a></li>
+        <li><a href="https://www.youtube.com/watch?v=B3gAZvncfa0&list=RDB3gAZvncfa0&start_radio=1" target="_blank" class="especial">CLIQUE NO PRIMEIRO</a></li>
+    </ul>
+    
+</body>
+</html>

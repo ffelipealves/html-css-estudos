@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "droid";
+    src: url(fontes/idroid.otf);
+}
+
+body{
+
+    background-color: #84E1AD;
+    margin: 0px;
+
+}
+
+
+h2,h3{
+    font-family: "droid";
+}
+
+h3{
+    background-image: linear-gradient(to right, #4cbe7fbe, #56d6909f,#73ca9a83, white);
+    padding: 3px;
+}
+
+h4{
+    background-color: #4e9b71;
+    border-radius: 15px 15px 0px 0px;
+    padding: 18px;
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 20px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top, #195A36,#43795B,#4e9b71, #4cbe80, #56d690 );   
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 5px 5px 8px -1px rgba(0, 0, 0, 0.404);
+    
+}
+
+header > nav{
+    text-align: left;
+    margin-top: 50px;
+}
+
+nav > a{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: rgba(19, 255, 98, 0.274);
+
+}
+
+header > h2{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+main{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+div{
+    background-color: #84e1ac62;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #195A36;
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+}
+
+footer > p{
+    color: white;
+    font-size: medium;
+}
+
