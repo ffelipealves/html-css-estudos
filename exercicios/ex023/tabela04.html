@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabelas</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th{
+            background-color: black;
+            color: white;
+        }
+        .cnome{
+            background-color: blueviolet;
+        }
+        .csexo, .cidade{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Tabela Estudo</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+             <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>Masculino</td>
+            <td>20</td>
+            <td>Padeiro</td>
+        </tr>
+        <tr>
+            <td>Julia</td>
+            <td>Feminino</td>
+            <td>30</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Cezar</td>
+            <td>Masculino</td>
+            <td>43</td>
+            <td>Arquiteto</td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
