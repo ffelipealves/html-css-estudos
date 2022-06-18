@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Meu primeiro formulario</h1>
+
+    <hr>
+
+    <form>
+
+        <!--Campo TEXT-->
+        <label for="campo_nome">Nome: </label>
+        <input type="text" name="" id="campo_nome" placeholder="Digite aqui seu Nome" required>
+        
+        <br><br>
+        <label for="campo_idade">Idade: </label>
+        <input type="number" name="" id="campo_idade" placeholder="Digite aqui sua idade">
+
+        <!--Campo Senha-->
+        <br><br>
+        <label for="Senha">Senha: </label>
+        <input type="password" name="" id="Senha" placeholder="Digite aqui sua Senha" required>
+
+        <!--Campo Email-->
+        <br><br>
+        <label for="Email">Email: </label>
+        <input type="email" name="" id="Email" placeholder="Digite aqui seu email" required>
+
+
+        <!--Radio-->
+        <br><br>
+        <h2>Sexo:</h2>
+        <label for="Homem">Homem</label>
+        <input type="radio" name="Sexo" id="Homem">
+        <label for="Mulher">Mulher</label>
+        <input type="radio" name="Sexo" id="Mulher">
+        <label for="Outro">Outro</label>
+        <input type="radio" name="Sexo" id="Outro">
+
+
+        <!--Checkbox-->
+        <br><br>
+        <h2>O que vc tem em casa ?</h2>
+        
+        <input type="checkbox" name="item1" value="TV">
+        <label for="item1">TV</label>
+        
+        <br>
+
+        <input type="checkbox" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label>
+        
+        <br>
+
+        <input type="checkbox" name="item3" value="Internet">
+        <label for="item3">Internet</label>
+
+        <h2>Selecione uma cor: </h2>
+        <select name="cores">
+            <option selected disabled value="">Selecione</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="rosa">Rosa</option>
+        </select>
+
+        <h2>Digite uma mensagem</h2>
+        <br>
+
+        <Textarea name="obs" rows="30" cols="55" placeholder="Observação"></Textarea>
+        
+        <hr>
+        <!--Campo de Submit-->
+        <br><br>
+        <input type="submit" value="Enviar Forms">
+        
+
+
+
+    </form>
+
+    <button>Clique aqui</button>
+    
+</body>
+</html>
