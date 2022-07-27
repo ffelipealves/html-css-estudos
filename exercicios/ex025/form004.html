@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando check box</title>
+</head>
+<body>
+    <h1>Forms 4</h1>
+    <form action="cadastro.php" method="post">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc"><label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quais esportes vc pratica</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volei</label> <br>
+            <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Outros inputs</legend>
+
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor">
+            </p>
+            <p>
+                <label for="inivel">Nivel de satisfacao</label>
+                <input type="range" name="nivel" id="inivel" min="1" max="10">
+            </p>
+            <p>
+                <label for="ifoto">Coloque sua foto</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+
+
+    </form>
+</body>
+</html>
