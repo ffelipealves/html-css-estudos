@@ -1,0 +1,39 @@
+@charset "UF-8";
+
+.container{
+    background-color: brown;
+    border: 3px solid black;
+    padding: 15px;
+    display: grid;
+    gap: 5px;
+    /*conseguimos desenhar como sera nosso layout*/
+    grid-template-areas: 
+        'header header header header'
+        'sidebar conteudo conteudo conteudo'
+        'footer footer footer footer';
+}
+
+.container div{
+    background-color: blue;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+/*aqui definimos qual é qual elemento*/
+#header{
+    grid-area: header;
+}
+
+#sidebar{
+    grid-area: sidebar;
+    height: 50vh;
+}
+
+#conteudo{
+    grid-area: conteudo;
+    height: 50vh;
+}
+
+#footer{
+    grid-area: footer;
+}
