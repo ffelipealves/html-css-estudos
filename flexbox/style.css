@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.container{
+    background-color: chocolate;
+    border: 2px solid black;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+
+    display: flex;
+
+    /*Alinhamento horizontal*/
+    justify-content: space-around;
+    /*Alinhamento vertical*/
+    align-items: center;
+
+    /*Tenta padronizar a disposiçoes dos itens*/
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+
+.container2{
+    background-color: brown;
+    border: 2px solid black;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /*flex: shorthand;*/
+}
+
+.box{
+    background-color: bisque;
+    height: 50px;
+    border: 2px solid black;
+    /*da uma base para o tamanho dos elementos*/
+    flex-basis: 30px;
+}
+
+/*o grow dita o crescimento do item naquela box*/
+#item-1{
+    /*altera a ordem dos elementos*/
+    order: 3;
+    flex-grow: 2;
+}
+
+#item-2{
+    order: 1;
+    flex-grow: 1;
+    /*contudo o flex-basis tem mais prioridade*/
+    flex-basis: 100px;
+}
+
+#item-3{
+    order: 2;
+    flex-grow: 1;
+}
+
+/*o flex shrink é basicamento o contrario do grow*/
